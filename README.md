@@ -6,7 +6,7 @@ Project website for **Less Evidence, Better Answering: Gain-Aware Minimal Eviden
 
 ¹ HKUST(GZ) · ² HKUST
 
-[Paper](https://openreview.net/pdf?id=PsPjtMRFBs) · [Live demo](https://mdi.hkust-gz.edu.cn/evidence_qa/) · [OpenReview](https://openreview.net/forum?id=PsPjtMRFBs) · [NeurIPS](https://neurips.cc/virtual/2026/poster/152857)
+[Project website](https://songyue-guo.github.io/MEGA/) · [Paper](https://openreview.net/pdf?id=PsPjtMRFBs) · [Live demo](https://mdi.hkust-gz.edu.cn/evidence_qa/) · [OpenReview](https://openreview.net/forum?id=PsPjtMRFBs) · [NeurIPS](https://neurips.cc/virtual/2026/poster/152857)
 
 MEGA retrieves a broad candidate pool, estimates evidence utility using hidden-state Information Gain Scoring, and selects a compact subset under a hard token budget with an FPTAS knapsack selector.
 
@@ -35,15 +35,9 @@ Then open `http://localhost:8765/`.
 
 ## Publishing
 
-### Existing personal GitHub Pages website
+The site is published from the independent public repository [Songyue-Guo/MEGA](https://github.com/Songyue-Guo/MEGA). In **Settings → Pages**, the source is **Deploy from a branch → main / (root)**. No custom workflow is required for these static files. Push changes to `main` to trigger the next deployment.
 
-Copy this folder into `MEGA/` at the root of `Songyue-Guo.github.io`, preserving the existing site's configuration. Expected address after the site's deployment succeeds:
-
-`https://songyue-guo.github.io/MEGA/`
-
-### Independent repository
-
-Upload this folder's contents to a public repository (for example `MEGA`). In **Settings → Pages**, select **Deploy from a branch**, then **main / (root)**. No workflow is required for these static files.
+The existing personal website repository is not modified.
 
 If a different URL is used, update `og:url` and `og:image` in `index.html`. Do not copy this project's `.nojekyll` into the root of an existing Jekyll personal website.
 
