@@ -1,12 +1,14 @@
 # MEGA · NeurIPS 2026
 
+> The project has moved to **[mega-evidenceqa.github.io](https://mega-evidenceqa.github.io/)**. Its maintained website source is now [mega-evidenceqa/mega-evidenceqa.github.io](https://github.com/mega-evidenceqa/mega-evidenceqa.github.io). This repository keeps the legacy address working as a redirect; the previous website source remains in Git history. The original documentation below is retained for reference.
+
 Project website for **Less Evidence, Better Answering: Gain-Aware Minimal Evidence Subset Selection for Medical QA**.
 
 **Songyue Guo¹ · Zhao Chen¹ · Caleb Chen Cao² · Lei Chen¹²**
 
 ¹ HKUST(GZ) · ² HKUST
 
-[Project website](https://songyue-guo.github.io/MEGA/) · [Paper](https://openreview.net/pdf?id=PsPjtMRFBs) · [Live demo](https://mdi.hkust-gz.edu.cn/evidence_qa/) · [OpenReview](https://openreview.net/forum?id=PsPjtMRFBs) · [NeurIPS](https://neurips.cc/virtual/2026/poster/152857)
+[Project website](https://mega-evidenceqa.github.io/) · [Paper](https://openreview.net/pdf?id=PsPjtMRFBs) · [Live demo](https://mdi.hkust-gz.edu.cn/evidence_qa/) · [OpenReview](https://openreview.net/forum?id=PsPjtMRFBs) · [NeurIPS](https://neurips.cc/virtual/2026/poster/152857)
 
 MEGA retrieves a broad candidate pool, estimates evidence utility using hidden-state Information Gain Scoring, and selects a compact subset under a hard token budget with an FPTAS knapsack selector.
 
@@ -35,7 +37,7 @@ Then open `http://localhost:8765/`.
 
 ## Publishing
 
-The site is published from the independent public repository [Songyue-Guo/MEGA](https://github.com/Songyue-Guo/MEGA). In **Settings → Pages**, the source is **Deploy from a branch → main / (root)**. No custom workflow is required for these static files. Push changes to `main` to trigger the next deployment.
+The maintained site is published from [mega-evidenceqa/mega-evidenceqa.github.io](https://github.com/mega-evidenceqa/mega-evidenceqa.github.io). In **Settings → Pages**, the source is **Deploy from a branch → main / (root)**. This legacy repository publishes the homepage redirect; make future website changes in the organization repository.
 
 The existing personal website repository is not modified.
 
